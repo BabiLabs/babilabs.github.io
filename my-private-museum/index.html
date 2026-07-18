@@ -6,6 +6,7 @@
     <meta name="description" content="My Private Museum is a private, offline-first collection app for Android and iOS.">
     <meta name="theme-color" content="#080d13">
     <title>My Private Museum</title>
+    <link rel="icon" type="image/png" href="assets/mpm-app-icon.png">
     <link rel="stylesheet" href="assets/styles.css">
   </head>
   <body>
@@ -13,7 +14,7 @@
     <header class="site-header">
       <nav class="nav-shell" aria-label="Primary navigation">
         <a class="brand" href="./" aria-current="page">
-          <span class="brand-mark" aria-hidden="true">MPM</span>
+          <img class="brand-mark" src="assets/mpm-app-icon.png" alt="">
           <span>My Private Museum</span>
         </a>
         <ul class="nav-links">
@@ -26,7 +27,7 @@
 
     <main id="main">
       <section class="content-shell hero">
-        <div>
+        <div class="hero-copy">
           <p class="eyebrow">Your objects. Your stories. Your device.</p>
           <h1>A private museum in your pocket.</h1>
           <p class="lede">
@@ -36,13 +37,6 @@
           <div class="hero-actions">
             <a class="button button-primary" href="#principles">Discover the principles</a>
             <a class="button button-secondary" href="privacy/">Read the privacy policy</a>
-          </div>
-        </div>
-        <div class="museum-stage" role="img" aria-label="Abstract collector display in a private gallery">
-          <div class="display-object" aria-hidden="true"></div>
-          <div class="stage-label">
-            <span>Curated locally</span>
-            <span class="status-dot" aria-hidden="true"></span>
           </div>
         </div>
       </section>
@@ -115,4 +109,3 @@
     </footer>
   </body>
 </html>
-
