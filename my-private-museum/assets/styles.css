@@ -304,6 +304,32 @@ h3 {
   font-size: 0.9rem;
 }
 
+.language-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.language-links a {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.35rem 0.8rem;
+  color: var(--text);
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.language-section + .language-section {
+  margin-top: 5rem;
+  border-top: 1px solid var(--line);
+  padding-top: 2rem;
+}
+
+.language-section > h2:first-child {
+  color: var(--accent);
+}
+
 .notice {
   margin: 2rem 0;
   border: 1px solid #8d593e;
