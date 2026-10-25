@@ -1,71 +1,51 @@
-# SportiPlan product and legal pages
+# SportiPlan legal and support pages
 
-Static GitHub Pages source, prepared 25 October 2026. No build, JavaScript,
-external fonts, trackers or cookies added. Stylesheet and icon are local.
+Three static bilingual pages, English first and Turkish via in-page language
+links, following the existing My Private Museum approach and StilPlan layout:
 
-## Routes
+- `/sporti-plan/privacy/` — Privacy Policy / Gizlilik ve Aydınlatma
+- `/sporti-plan/legal/` — Legal Notice / Yayıncı Bilgileri, including purchase,
+  licence and mandatory consumer information
+- `/sporti-plan/support/` — Support / Destek
 
-English: `/sporti-plan/`, `privacy/`, `legal/`, `support/`, `terms/`.
-German: the same routes under `/sporti-plan/de/`.
-Turkish: the same routes under `/sporti-plan/tr/`.
-All pages have language links, canonical URLs, navigation and a print stylesheet.
-The three English policy/support paths match the current app links, including
-explicit `index.html` URLs. No app code change is necessary for those links.
+Explicit `index.html` URLs also work. The stylesheet and icon are local;
+there is no JavaScript, tracking, remote font or new site framework.
 
-## Confirmed operator information
+Legacy landing, terms and language routes contain redirect stubs only, not
+additional content pages. See [CHANGE_REPORT.md](CHANGE_REPORT.md).
 
-Ali Babi, Bilge Sok. No 9, Büyükçekmece, Istanbul, Türkiye.
-Contact: babilabs@duck.com, forwarded to GMX.
-Individual publisher under the BabiLabs name. The operator reports treatment
-under Turkish GVK mükerrer 20/B; this tax status is not a separate company and
-is not represented as a registration number or public tax certification.
+## Operator and distribution
 
-## Release status — legal review still required
+Ali Babi (BabiLabs), Bilge Sok. No 9, Büyükçekmece, Istanbul, Türkiye.
+Individual publisher; BabiLabs is the publishing name, not a separate company.
+Email: babilabs@duck.com, forwarded through DuckDuckGo Email Protection to GMX.
+The operator reports Turkish GVK mükerrer 20/B tax treatment; no company number
+or public tax certification is inferred from it.
 
-These files are prepared for review and have not been published by this task.
-No assertion of worldwide legal clearance is made. `noindex` is used consistently
-with the existing main legal pages; it does not restrict public access or replace
-legal review.
+Initial target markets: Türkiye, USA, Canada, Australia, New Zealand, Singapore.
+EU/EEA, UK and Switzerland are not initial target markets. No worldwide offer
+or blanket exemption from GDPR or other privacy laws is asserted. Store-country
+selection must be configured in the respective store accounts; website text
+cannot enforce distribution settings.
 
-Before a worldwide launch:
+## Maintenance
 
-- Confirm the street address is a complete deliverable business/contact address;
-  add the correct postal code if required for delivery. No postal code invented.
-- Determine applicability of GDPR Article 3(2) and the Article 27 exception for
-  the publisher's own processing. A Türkiye-only address cannot serve as an EU
-  representative address. Ali Babi has not been listed as EU representative.
-  If needed, appoint an EU-established representative in writing and add their
-  contact details in all three privacy versions. Do not infer an exemption merely
-  from local club storage or low revenue.
-- Verify the actual GitHub/DuckDuckGo/GMX service relationships and applicable
-  international-transfer mechanisms (GDPR Chapter V / KVKK Article 9), including
-  any required provider contracts. The privacy notice does not establish these
-  mechanisms. No unverified SCC, DPF coverage or adequacy claim is made.
-- Confirm support retention criteria match actual handling and adopt an internal
-  retention/deletion practice. Verify VERBİS status separately.
-- Check store offer configuration against the one-time non-consumable model and
-  app release; declare App Privacy/Data Safety and commercial trader information
-  in the respective stores. Trader phone information is not invented here.
-- Existing Android backup rules exclude some entitlement data only; OS backup
-  and device transfer may therefore include other records. iOS backup exclusions
-  have not been proven. The notices allow for OS backups accordingly.
-- Match target markets, required translations and consumer obligations to the
-  actual distribution plan. Have the final legal/operational questions reviewed
-  by qualified counsel for Türkiye and relevant target markets.
+Keep both languages in sync when processing, providers, purchase offers or
+features change. The legal page retains the former product terms as information;
+it does not claim automatic agreement or replace Apple's Standard EULA. No
+separate terms page is necessary for the current content model.
 
-Product terms deliberately preserve mandatory consumer rights and are not
-presented as a replacement custom Apple EULA or as automatically agreed terms.
-If stronger contractual provisions are needed, introduce a valid agreement flow
-and country-appropriate review first.
+Operational legal questions remain separate from these source changes: verify
+provider contracts and applicable international-transfer safeguards, actual
+support retention practices, applicable registration obligations and the final
+store offer. No unverified SCC, adequacy, EU-representative exemption or worldwide
+legal clearance is claimed. Add a confirmed postal code if needed for delivery.
+Reassess territorial rules and representative requirements if distribution or
+processing changes. Existing OS backups may include local records; the notice
+accounts for that rather than promising exclusive on-device storage.
 
-## Official references
-
-- GDPR representative requirements: https://cnpd.public.lu/en/legislation/droit-europ/union-europeenne/rgpd/chapitre-4.html
-- EDPB territorial guidance: https://www.edpb.europa.eu/sites/default/files/files/file1/edpb_guidelines_3_2018_territorial_scope_after_public_consultation_en_1.pdf
-- KVKK: https://www.kvkk.gov.tr/Icerik/6649/Personal-Data-Protection-Law
-- GMX: https://agb-server.gmx.net/datenschutz/
-- GitHub: https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement
-- DuckDuckGo: https://duckduckgo.com/email/privacy-terms
-- Apple EULA: https://developer.apple.com/help/app-store-connect/manage-app-information/provide-a-custom-license-agreement
-
-Recheck text after material changes to features, providers, purchases or data flows.
+Sources: [KVKK](https://www.kvkk.gov.tr/Icerik/6649/Personal-Data-Protection-Law),
+[Apple Standard EULA](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/),
+[GMX privacy](https://agb-server.gmx.net/datenschutz/),
+[GitHub privacy](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement),
+[DuckDuckGo Email Protection](https://duckduckgo.com/email/privacy-terms).
