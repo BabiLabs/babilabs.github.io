@@ -5,8 +5,9 @@ Two English, buildless HTML pages for the existing BabiLabs GitHub Pages site:
 - `https://babilabs.github.io/orbit-hop/privacy/`
 - `https://babilabs.github.io/orbit-hop/support/`
 
-These are the selected deployment targets. See the release report below for
-verification status; source files alone are not proof of publication.
+Both pages were published and verified with HTTP 200 on 7 November 2026.
+Their HTML and all page-load assets match the committed files. See
+[RELEASE_REPORT.md](RELEASE_REPORT.md) for deployment and validation evidence.
 
 ## Hosting and publishing
 

@@ -24,3 +24,21 @@ Squarespace and returned HTTP 404 for both privacy and support. Domain settings
 were not changed.
 
 Deployment and final route verification are recorded below after publishing.
+
+## Confirmed public deployment
+
+Published source commit: `908e23b0d5759fea3af672d8918c9cf77be50b1c`.
+GitHub Pages build status: `built`, with no reported error, on 7 November 2026.
+
+Verified live URLs:
+
+- https://babilabs.github.io/orbit-hop/privacy/ — HTTP 200
+- https://babilabs.github.io/orbit-hop/support/ — HTTP 200
+
+Both no-trailing-slash URLs redirect to these directory routes and finish at
+HTTP 200. Both live HTML responses match the local committed files byte for
+byte. CSS, font, logo and favicon also return HTTP 200 and match their local
+files. None of these checked responses had a Set-Cookie header.
+
+The app's old babilabs.com links still need replacement in its own repository
+and a new app build; the existing Squarespace domain was not reconfigured.
