@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Orbit Hop '89 — A clear view of local saves, platform services and the data behind your flight.">
+<meta name="color-scheme" content="dark">
+<title>Privacy Policy — Orbit Hop '89 · BabiLabs</title>
+<link rel="stylesheet" href="../assets/styles.css">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header"><a class="wordmark" href="../support/" aria-label="Orbit Hop '89 support"><span class="pixel-star" aria-hidden="true">✦</span> ORBIT HOP '89</a><nav aria-label="Main navigation"><a href="../support/">Support</a><a href="../privacy/" aria-current="page">Privacy</a><a href="/">BabiLabs <span aria-hidden="true">↗</span></a></nav></header>
+<main id="main">
+<div class="hero"><div><p class="eyebrow">BABILABS / ORBIT HOP '89</p><h1>Privacy Policy</h1><p class="lead">A clear view of local saves, platform services and the data behind your flight.</p><p class="status"><span aria-hidden="true">■</span> OFFLINE PLAY <span aria-hidden="true">/</span> LOCAL PROGRESS</p></div><img class="game-logo" src="../assets/orbit_hop_89_logo.png" alt="Orbit Hop '89 — pixel arcade logo" width="384" height="208"></div>
+<div class="content-layout"><aside><nav class="contents" aria-label="On this page"><p class="eyebrow">ON THIS PAGE</p><a href="#overview">Overview</a><a href="#local-data">Local data</a><a href="#sdks">SDKs & platforms</a><a href="#deletion">Delete data</a><a href="#website">Website</a><a href="#contact">Contact</a><a href="#updates">Review status</a></nav></aside><div class="copy"><div class="notice"><strong>Release review in progress.</strong> This policy describes the reviewed app source. The exact SDK versions and signed Android/iOS release builds still need final verification. It is not a completed release-binary audit.</div>
+<section id="overview"><h2>01 / Your game, your device</h2>
+<p>Orbit Hop '89 is an offline arcade game. It has no accounts, advertising or in-app purchases. The reviewed app code does not send gameplay records to BabiLabs and contains no analytics or third-party crash-reporting integration. This does not mean that no data is processed: the game saves information locally, and your operating system, app store, web host and email providers may process information separately.</p></section>
+<section id="local-data"><h2>02 / What the game stores</h2>
+<p>Local storage lets you keep your progress and preferences between sessions:</p>
+<ul><li><strong>Arcade records:</strong> three-character leaderboard names, scores, hop counts, run duration and date, plus personal best score, survival time and hops.</li><li><strong>Galaxy Journey:</strong> completed levels, stars, best scores and times, unlock progress, generation seeds, saved attempts and checkpoints, including ship and hazard state.</li><li><strong>Preferences:</strong> sound and music settings, tutorial status and beginner-assist progress.</li></ul>
+<p>These records are stored in the app's preferences using <code>shared_preferences</code>. Choose initials or a nickname rather than identifying information. There is no app-operated online leaderboard or cloud-sync service.</p>
+<p>Bundled audio may be copied to private temporary storage by the audio plugin. Its randomly generated player/cache IDs are local technical identifiers, not advertising IDs or hardware identifiers read by the game.</p></section>
+<section id="sdks"><h2>03 / SDKs and platform services</h2>
+<p>The app uses Flutter, Flame for gameplay, <code>shared_preferences</code> for local saves, and <code>audioplayers</code> for bundled sound and music. The source audit found no advertising, billing, account, analytics or crash-upload SDK declared or initialized.</p>
+<p>The audio package has an HTTP dependency, but the reviewed native app uses bundled asset playback, not remote audio. A dependency's network capability alone does not establish that the game transmits data.</p>
+<p>The Android release source removes internet, network-state and advertising-ID permissions and disables Android backup. The iOS app privacy manifest declares no app-owned collected data or tracking and declares its use of preferences. These source declarations do not replace inspection of the final merged Android manifest and all SDK privacy manifests in the iOS archive.</p>
+<p>Apple, Google and your device manufacturer may process store downloads, device diagnostics, crash information or backup data under their own settings and policies. This is separate from app-operated telemetry. iOS or system backups may include game saves; the actual release backup/restore behavior still requires confirmation. Manage diagnostics and backups in your device or platform settings.</p>
+<p>Platform information: <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a> and <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p></section>
+<section id="deletion"><h2>04 / Keeping and deleting your saves</h2>
+<p>Game records remain locally until removed or replaced. In <strong>Settings → Clear High Scores</strong>, confirm deletion to remove the Arcade leaderboard entries. This does not reset personal best records, Journey progress or preferences.</p>
+<p>To remove all local game data on Android, use the system's app settings to clear this app's storage/data. On iOS, use <strong>Delete App</strong>, rather than Offload App, to remove the app and its local data. This loses local progress. Backups or device transfers can retain or restore copies; manage those separately with your platform provider. BabiLabs cannot remotely retrieve or erase saves on your device.</p></section>
+<section id="website"><h2>05 / Visiting these pages</h2>
+<p>These pages are hosted on GitHub Pages. Requests disclose technical connection data, such as your IP address, browser information, requested URL and access time, to the hosting infrastructure so it can deliver and secure the website. GitHub describes its processing and retention in its <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">Privacy Statement</a>.</p>
+<p>These pages add no cookies, analytics, tracking scripts, remote fonts or embedded third-party media. Following an external link opens another provider's service. Opening Privacy or Support from the game uses your system browser; that visit is separate from offline gameplay.</p></section>
+<section id="contact"><h2>06 / Email and privacy requests</h2>
+<p>The responsible publisher is <strong>Ali Babi (BabiLabs)</strong>, Bilge Sok. No 9, Büyükçekmece, Istanbul, Türkiye. Contact <a href="mailto:babilabs@duck.com">babilabs@duck.com</a> for support or privacy questions.</p>
+<p>If you email us, your email address, message, attachments and email metadata are processed to answer your request and handle follow-up. The documented contact route uses DuckDuckGo Email Protection forwarding to GMX. See <a href="https://duckduckgo.com/email/privacy-terms">DuckDuckGo's email privacy terms</a> and <a href="https://agb-server.gmx.net/datenschutz/">GMX's privacy notice</a>. Your own email provider also processes your message. Please share only what is needed; do not send passwords or unrelated personal information.</p>
+<p>Support correspondence is separate from local game saves. <strong>Pending publisher confirmation:</strong> the support-email retention/deletion schedule, applicable provider arrangements and international-transfer safeguards, and the postal code needed to complete the publisher's postal address. No fixed retention period or transfer guarantee is asserted here.</p>
+<p>You may contact us to request access, correction or deletion of information held through support correspondence, or to ask about other rights available under applicable law. Where applicable, you may complain to your data-protection authority. Local game records must be managed on your device as described above.</p></section>
+<section id="updates"><h2>07 / Updates and review status</h2>
+<p>Last updated: <time datetime="2026-11-07">7 November 2026</time>. Based on the privacy/SDK audit of 6 November 2026 and a current source review on 7 November 2026.</p>
+<p>Before final release declarations, BabiLabs still needs to review the resolved dependency lockfile, both platform SDK inventories, merged Android permissions, iOS archive privacy report and native offline/backup behavior. Package version ranges may resolve newer SDKs than the audit samples. This policy must be updated if the verified release changes the processing described here.</p></section></div></div>
+</main>
+<footer><span>Orbit Hop '89 <span aria-hidden="true">/</span> BabiLabs</span><nav aria-label="Footer"><a href="../support/">Support</a><a href="../privacy/">Privacy Policy</a><a href="/legal/">Publisher information</a></nav><span class="small">Updated <time datetime="2026-11-07">7 November 2026</time></span></footer>
+</body>
+</html>
